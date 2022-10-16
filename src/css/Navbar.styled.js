@@ -61,9 +61,11 @@ export const StyledNavbar = styled.div`
 
     //add bars icon
     .bars {
-      display: block;
+      display: flex;
       cursor: pointer;
       margin-right: 50px;
+      align-items: center;
+      gap: 20px;
     }
   }
 `;

@@ -57,7 +57,7 @@ export const StyledHome = styled.div`
 
   .title-desc {
     font-size: 1em;
-    color: #858585;
+    color: #737373;
     max-width: 400px;
   }
 
@@ -67,7 +67,7 @@ export const StyledHome = styled.div`
     margin-top: 20px;
     border: none;
     border-radius: 10px;
-    background-color: ${(props) => props.theme.colors.blueText};
+    background-color: ${(props) => props.theme.colors.darkBlue};
     color: white;
     cursor: pointer;
   }

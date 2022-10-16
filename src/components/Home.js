@@ -24,7 +24,7 @@ const Home = () => {
           <h1 className="intro">Hello, Im Elijah!</h1>
           <h2 className="title">Full Stack Developer</h2>
           <h3 className="title-desc">
-            Experienced full stack developer with quality work and knowledge
+            Experienced full stack developer with quality work and knowledge,
             looking for a great employeer
           </h3>
           <button className="contactBtn">Contact Me</button>

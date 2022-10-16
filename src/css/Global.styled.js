@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
 * {
   margin: 0;
-      //outline: 1px solid green;
+  //outline: 1px solid green;
 }
 
 /*

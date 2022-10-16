@@ -3,10 +3,12 @@ import GlobalStyle from "./css/Global.styled";
 import { ThemeProvider } from "styled-components";
 import Home from "./components/Home";
 import { useState } from "react";
+import AboutMe from "./components/AboutMe";
 
 const globalTheme = {
   blueText: "#7a8ae3",
-  greyText: "#6c6c6d",
+  darkBlue: "#485fe4",
+  greyText: "#8b8b8c",
 };
 
 const lightTheme = {
@@ -15,15 +17,17 @@ const lightTheme = {
     mainText: "#000000",
     blueText: globalTheme.blueText,
     greyText: globalTheme.greyText,
+    darkBlue: globalTheme.darkBlue,
   },
 };
 
 const darkTheme = {
   colors: {
-    mainBackground: "#282828",
+    mainBackground: "#24252f",
     mainText: "#ffffff",
     blueText: globalTheme.blueText,
     greyText: globalTheme.greyText,
+    darkBlue: globalTheme.darkBlue,
   },
 };
 // ${props => props.theme.colors.lightBlue};
@@ -35,6 +39,7 @@ function App() {
       <GlobalStyle />
       <Navbar setTheme={setTheme} theme={theme} />
       <Home />
+      <AboutMe />
     </ThemeProvider>
   );
 }

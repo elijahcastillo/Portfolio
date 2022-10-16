@@ -26,6 +26,13 @@ const Navbar = ({ setTheme, theme }) => {
       </div>
       <div className="bars">
         <BarsIcon className="barsIcon" />
+        <div onClick={() => setTheme((prev) => !prev)}>
+          {theme ? (
+            <SunIcon className="themeChange" />
+          ) : (
+            <MoonIcon className="themeChange" />
+          )}
+        </div>
       </div>
     </StyledNavbar>
   );
